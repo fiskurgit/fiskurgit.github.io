@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Based in beautiful Todmorden in West Yorkshire, UK.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+My personal apps are delivered using a Kaizen approach: continuous improvements and regular releases building upon an initial minimal release.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+I’ve been working in the mobile industry since 2005, originally specialising on BlackBerry, focus moved to Android when it appeared in 2008. I’ve worked on projects for Orange, T-Mobile, Vodafone, Sainsbury’s, the Metropolitan Police, RentalCars.com, BlackBerry, plus countless others. In addition to various development contracts I operate as Head of Native Dev and Scrum-Master, regularly write functional and technical specifications, and have plenty of experience mentoring junior developers.
+
+My Github profile:
+{% include icon-github.html username="fiskurgit" %}
