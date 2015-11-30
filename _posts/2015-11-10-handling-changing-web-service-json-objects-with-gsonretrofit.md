@@ -12,14 +12,16 @@ categories:
 ---
 I&#8217;ve been working with a web service that&#8217;s usually returning a particular field as a *String*, but sometimes as a *String* array:
 
-<pre>"label": "WESTHAMPNETT MILL RL",
+{% highlight javascript %}
+"label": "WESTHAMPNETT MILL RL",
 
-...
+//...
 
 "label": [
     "BARDNEY GS",
     "Bardney"
-],</pre>
+]
+{% endhighlight %}
 
 This causes <a href="https://github.com/google/gson" target="_blank">GSON</a> to throw an exception, here&#8217;s how to handle buggy services that have JSON fields that change type:
 
