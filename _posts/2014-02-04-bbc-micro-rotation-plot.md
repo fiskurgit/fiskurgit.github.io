@@ -10,15 +10,12 @@ videourl:
 categories:
   - bbc micro
 ---
-<img class="alignnone size-full wp-image-158" alt="bbc_2_12305916544_7e457ebbe0_b" src="http://fiskur.eu/wp-content/uploads/2014/02/bbc_2_12305916544_7e457ebbe0_b.jpg" width="1024" height="1024" />
+<img class="alignnone size-full wp-image-158" alt="bbc_2_12305916544_7e457ebbe0_b" src="http://fiskur.eu/wp-content/uploads/2014/02/bbc_2_12305916544_7e457ebbe0_b.jpg" width="612" height="612" />
 
-
+<script src="https://gist.github.com/fiskurgit/8804703.js"></script>
 
 From &#8216;Practical Programs for the BBC Micro&#8217; by David Johnson-Davies
 
-<!--more-->
-
-  
 Created with the Fiskur BBC Micro Android app.
 
 For completeness and to explain the code the text from the book is copied below:

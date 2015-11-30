@@ -16,8 +16,7 @@ If you make apps and work in a consultancy you&#8217;ll probably be used to taki
 
 This little script does it all for you (if you&#8217;re on OSX):
 
-  
-<!--more-->
+<script src="https://gist.github.com/fiskurgit/ed98b0bf83f2384a406a.js"></script>
 
 Just put the script somewhere suitable, edit the permissions to make it executable (`chmod u+x screenshot.sh`), attach your device via USB, make sure it&#8217;s debuggable, then run the script. The Android SDK comes with **adb** (*android debug bridge*) which allows you to take and grab the screenshot, then Apple&#8217;s own **sips** (*scriptable image processing system* [full guide here][1]) takes the image file and scales it down to 270 pixels wide (while maintaining the image ratio).
 

@@ -22,21 +22,27 @@ Relying too much on Singletons makes it difficult to unit test code, it essentia
 
 a simple class with a hard-coded dependency:
 
-> `public class MyClass {<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;private ServiceHelper serviceHelper;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MyClass(){<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;serviceHelper = new ServiceHelper();<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
-}`
+<pre>
+public class MyClass {
+	private ServiceHelper serviceHelper;
+
+	MyClass(){
+		serviceHelper = new ServiceHelper();
+	}
+}
+</pre>
 
 and the same class with constructor injection:
 
-> `public class MyClass {<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;private ServiceHelper serviceHelper;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MyClass(ServiceHelper serviceHelper){<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.serviceHelper = serviceHelper;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
-}`
+<pre>
+public class MyClass {
+	private ServiceHelper serviceHelper;
+	
+	MyClass(ServiceHelper serviceHelper){
+		this.serviceHelper = serviceHelper;
+	}
+}
+</pre>
 
 For larger components we&#8217;ve been looking at using <a href="http://square.github.io/dagger/" target="_blank">Dagger</a> to help us easily use dummy providers for services and data: if a web service isn&#8217;t ready we can create a mock service class that runs locally on the device and returns hard-coded test data without needing a network request, this also means we can create automated tests without having to set up any state; we don&#8217;t need to first fetch a user token to enable a connection to a server to return some data to test how some UI behaves, the test will just use our dummy service. 
 
