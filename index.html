@@ -9,6 +9,12 @@ Github: <a href="https://github.com/fiskurgit">@fiskurgit</a><br>
 Twitter: <a href="https://twitter.com/jhfisher">@jhfisher</a><br>
 <br>
 
+<div class="blog-index">
+  {% assign post = site.posts.first %}
+  {% assign content = post.content %}
+  {% include post_detail.html %}
+</div>
+
 <div class="home">
 
   <h1 class="page-heading">Posts</h1>

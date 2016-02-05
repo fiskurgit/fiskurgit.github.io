@@ -19,8 +19,6 @@ A simple app that shows any current flood alerts for England and Wales, the 3 d
 
 [<img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" width="200" />][1]
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/jonathanhfisher/23329328985/in/dateposted/" title="2015-11-26_07-05-06"><img src="https://farm6.staticflickr.com/5820/23329328985_ee74ae6800_z.jpg" width="235" alt="2015-11-26_07-05-06" /></a>&nbsp;<a data-flickr-embed="true"  href="https://www.flickr.com/photos/jonathanhfisher/23329269775/in/dateposted/" title="Screenshot_20151126-184757"><img src="https://farm1.staticflickr.com/568/23329269775_878eacdbc1_z.jpg" width="235" alt="Screenshot_20151126-184757" /></a>&nbsp;<a data-flickr-embed="true"  href="https://www.flickr.com/photos/jonathanhfisher/23329264465/in/dateposted/" title="Screenshot_20151126-184818"><img src="https://farm1.staticflickr.com/763/23329264465_1802155199_z.jpg" width="235" alt="Screenshot_20151126-184818" /></a>
-
 ## River Levels
 
 More useful for people where flooding is a real worry, see data from local measurement stations for the day and previous week.
