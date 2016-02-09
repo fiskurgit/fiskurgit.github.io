@@ -13,3 +13,5 @@ categories:
 'Android UI library that creates '[chip](https://www.google.com/design/spec/components/chips.html)' clouds'. Full details on the [Github readme](https://github.com/fiskurgit/ChipCloud).  
 
 The view evolved as a way of displaying trainer sizes to the user in a more user-friendly way than a dropdown list. It adheres to the Material Design guidelines for the Chip ui element but presents them as a wrapping 'tag cloud' style view.
+
+![Trainer Size Screenshot](https://raw.githubusercontent.com/fiskurgit/ChipCloud/master/images/trainer_sizes.png)
