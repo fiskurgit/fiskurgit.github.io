@@ -2,7 +2,7 @@
 title: SimpleViewPager Library
 author: fiskur
 layout: post
-permalink: /chip_cloud_library
+permalink: /simple_view_pager_library
 ample_page_layout:
   - default_layout
 slide_template:
