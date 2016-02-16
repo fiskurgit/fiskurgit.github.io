@@ -1,0 +1,89 @@
+<section>
+  <script type="text/javascript">
+    var instanceName;
+    var inputText;
+
+    function processClass() {
+      inputText = document.getElementById("input").value;
+      var outputText = "";
+      var lines = inputText.split('\n');
+      for(var i = 0;i < lines.length;i++){
+        var line = lines[i];
+        if(line.indexOf('public class ') > -1){
+          //get class name
+          var className = line.substring(line.indexOf('public class ') + 13, line.length);
+          className = className.substring(0, className.indexOf(' '));
+
+          //make instance name
+          instanceName = uncapitalizeFirstLetter(className);
+
+          //initialise object
+          outputLine(className + ' ' + instanceName + ' = new ' + className + "();");
+        }
+        if(line.indexOf('public void set') > -1){
+          var field = line.substring(line.indexOf('('), line.length);
+          var type = field.substring(1, field.indexOf(' '));
+          field = field.substring(field.indexOf(' ') + 1, field.indexOf(')'));
+          var method = line.substring(line.indexOf('public void ') + 12, line.indexOf('('));
+          if(type == "String"){
+            outputLine(instanceName + "." + method + "(\"" + field + "\");");
+          }else if(type == "boolean" || type == "Boolean"){
+            outputLine(instanceName + "." + method + "(true);");
+          }else if(type == "float" || type == "Float"){
+            outputLine(instanceName + "." + method + "(1f);");
+          }else if(type == "int" || type == "Integer"){
+            outputLine(instanceName + "." + method + "(1);");
+          }else{
+            outputLine("//Unknown type: " + type + " " + instanceName + "." + method + "(...);");
+          }
+        }
+      }
+
+      outputLine("");
+
+      for(var i = 0;i < lines.length;i++){
+        var line = lines[i];
+        if(line.indexOf('public void set') > -1){
+          var field = line.substring(line.indexOf('('), line.length);
+          var type = field.substring(1, field.indexOf(' '));
+          field = field.substring(field.indexOf(' ') + 1, field.indexOf(')'));
+          var method = line.substring(line.indexOf('public void ') + 12, line.indexOf('('));
+          method = method.replace("set", "get");
+
+          if(type == "String"){
+            outputLine("Assert.assertEquals(\"" + field + "\", " + instanceName + "." + method + "());");
+          }else if(type == "boolean" || type == "Boolean"){
+            if(inputText.indexOf(method) > -1){
+              outputLine("Assert.assertTrue(" + instanceName + "." + method + "());");
+            }else{
+              outputLine("Assert.assertTrue(" + instanceName + ".is" + capitalizeFirstLetter(field) + "());");
+            }
+          }else if(type == "float" || type == "Float"){
+            outputLine("Assert.assertEquals(1f, " + instanceName + "." + method + "());");
+          }else if(type == "int" || type == "Integer"){
+            outputLine("Assert.assertEquals(1, " + instanceName + "." + method + "());");
+          }else{
+            outputLine("//Unknown type: " + type + " " + instanceName + "." + method + "();");
+          }
+        }
+      }
+    }
+
+    function outputLine(text){
+      document.getElementById("output").value += text + '\n';
+    }
+
+    function uncapitalizeFirstLetter(string) {
+      return string.charAt(0).toLowerCase() + string.slice(1);
+    }
+
+    function capitalizeFirstLetter(string) {
+      return string.charAt(0).toUpperCase() + string.slice(1);
+    }
+
+ </script>
+    <textarea rows="20" cols="100" style="width:100%;" id ="input"></textarea><br>
+    <button value="undefined" id="generate" onclick="processClass();"  style="width:100%;" >Generate Getter/Setter Asserts</button><br>
+    <br>
+    <textarea rows="20" cols="100" id ="output"  style="width:100%;" ></textarea><br>
+</section>
