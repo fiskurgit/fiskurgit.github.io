@@ -1,5 +1,5 @@
 ---
-title: Jacoco Getter/Setter Form
+title: Jacoco Getter Setter Form
 author: fiskur
 layout: post
 permalink: /jacoco_getter_setter_form
