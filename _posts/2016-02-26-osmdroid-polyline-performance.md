@@ -16,7 +16,7 @@ There's a difference in the way GoogleMaps and OSMDroid (plus Bonus Pack) handle
 
 <script src="https://gist.github.com/fiskurgit/59e0ba268a4625a6c403.js"></script>
 
-but this is inefficient and will cause issues on lower powered devices. In order to use OSMDroid with large paths you need to use a different strategy than you'd use with GoogleMaps; only render the points onscreen, and thin the number of points so there's less drawing work to do.
+but this is inefficient and will cause issues on lower powered devices. In order to use OSMDroid with large paths you need to use a different strategy than you'd use with GoogleMaps; only render the points that will appear on screen, and thin the number of points so there's less drawing work to do.
 
 * Attach zoom and drag listeners to your MapView:
 
@@ -30,6 +30,6 @@ but this is inefficient and will cause issues on lower powered devices. In order
 
 <script src="https://gist.github.com/fiskurgit/42fadafaac089dfaf7bd.js"></script>
 
-The result is very smooth, though with occasional glitches along the viewport boundary:
+The result is very smooth, though with occasional glitches along the viewport boundary, this example has MAX_POINTS set to 150:
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/hWcA5LL27Ms?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
