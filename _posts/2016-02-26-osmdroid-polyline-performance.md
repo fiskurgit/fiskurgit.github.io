@@ -14,7 +14,7 @@ I've been looking at rewriting my [Pennine Way app](https://play.google.com/stor
 
 There's a difference in the way GoogleMaps and OSMDroid (plus Bonus Pack) handle Polylines, GoogleMaps takes care of only drawing the path in the viewport to save memory, while OSMDroid renders the entire texture, for a path with ~9000 points this causes OOM exceptions when using hardware acceleration: ```OpenGLRenderer﹕ Path too large to be rendered into a texture```, some Stack Overflow posts suggest turning off hardware acceleration for the OSM view:
 
-```xml
+```
 <org.osmdroid.views.MapView
     android:id="@+id/map"
     android:layout_width="fill_parent"
@@ -26,6 +26,7 @@ There's a difference in the way GoogleMaps and OSMDroid (plus Bonus Pack) handle
 but this is inefficient and will cause issues on lower powered devices. In order to use OSMDroid with large paths you need to use a different strategy than you'd use with GoogleMaps; only render the points onscreen, and thin the number of points so there's less drawing work to do.
 
 * Attach zoom and drag listeners to your MapView:
+
 ```java
 osmMap.setMapListener(new MapListener() {
     @Override
@@ -42,6 +43,7 @@ osmMap.setMapListener(new MapListener() {
 });
 ```
 * Do the work off the main event thread:
+
 ```java
 private Thread updateThread = null;
 //...
@@ -52,6 +54,7 @@ public void drawRoute(final Context context, final MapView osmMap, final int col
 }
 ```
 * Remove any points outside of the view port, then thin the remaining points so there's a sane number to draw (where routeGeoPoints is the full array of ~9000 geopoints):
+
 ```java
 Polyline pathOverlay = null;
 
