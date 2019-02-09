@@ -20,7 +20,7 @@ fi
 
 #Inject md>html JS to top of file
 echo "Injecting js import to $1"
-echo "<script src=\"http://fiskurgit.github.io/md-page/md-page.js\"></script><noscript>
+echo "<script src=\"https://fiskurgit.github.io/md-page/md-page.js\"></script><noscript>
 $(cat $1)" > $1
 
 if [[ $1 == *.md ]]
