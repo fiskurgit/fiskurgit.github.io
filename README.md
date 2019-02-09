@@ -9,6 +9,3 @@ Writing a new post:
 * `./gen.sh newpost.md push`
 
 See [gen.sh](https://github.com/fiskurgit/fiskurgit.github.io/blob/master/gen.sh) for more information
-
-## Todo
-* _update_ argument to force update to exiting content

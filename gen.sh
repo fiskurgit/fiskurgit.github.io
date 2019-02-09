@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# Todo
+# gen.sh push - should look for any uncommited files, convert them, then push
+
 #Check no args display help
 if [ $# -eq 0 ] ; then
     echo " "
