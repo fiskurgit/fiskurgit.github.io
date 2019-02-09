@@ -3,6 +3,11 @@
 # Todo
 # gen.sh push - should look for any uncommited files, convert them, then push
 
+function push_all {
+  echo "Pushing all changes"
+  #todo
+}
+
 #Check no args display help
 if [ $# -eq 0 ] ; then
     echo " "
@@ -10,6 +15,11 @@ if [ $# -eq 0 ] ; then
     echo " "
     echo "Usage: gen.sh inputfile.md"
     exit 1
+fi
+
+if [[ $1 == push ]] ; then
+  push_all
+  exit 1
 fi
 
 #Check file exists
