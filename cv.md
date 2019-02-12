@@ -1,4 +1,3 @@
-<script src="https://fiskurgit.github.io/md-page/md-page.js"></script><noscript>
 # Jonathan Fisher CV
 
 ## Contact fiskdebug@gmail.com
@@ -32,4 +31,4 @@ As part of a short-lived team helped develop three client apps (Android, BlackBe
 Various contracts, mostly on BlackBerry, including projects for T-Mobile, Orange, Vodafone with the sadly missed Penrith company.
 
 ### Vodafone (Wayfinder) via Sapient Nitro - Contract Developer [2009 - 2010]
-Creating a BlackBerry ui library for Vodafone's mapping products. 
+Creating a BlackBerry ui library for Vodafone's mapping products.

@@ -1,4 +1,3 @@
-<script src="https://fiskurgit.github.io/md-page/md-page.js"></script><noscript>
 # FiskurGit
 
 ## Projects
