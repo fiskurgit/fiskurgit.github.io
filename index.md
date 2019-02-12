@@ -1,5 +1,3 @@
-# FiskurGit
-
 ## Projects
 
 * [DitherKt](https://github.com/fiskurgit/DitherKt) - Command-line monochrome dithering tool written in Kotlin
