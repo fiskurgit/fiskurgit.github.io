@@ -4,4 +4,4 @@ Hippocamp was one of the early netlabels, it started in 2001 and was still relea
 
 Most of the releases are hosted by [archive.org](https://archive.org/details/hippocamp&tab=collection) with later releases self hosted, these can be [downloaded as a zip from my Google Drive](https://drive.google.com).
 
-[Hippocamp Archive](./hippocamp/catalogue.md) 
+[Hippocamp Archive](./hippocamp/catalogue.md) (Later releases (hcnl001 to hcnl013) will have broken link, download the zip above)
