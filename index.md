@@ -5,5 +5,5 @@
 ## Other
 
 * [CV](cv.html)
-* [Hippocamp.net](./archive/hippocamp.md)
+* [Hippocamp](./archive/hippocamp.md)
 * [Batfinks](./archive/batfinks.md)
