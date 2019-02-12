@@ -1,5 +1,4 @@
-<script src="https://fiskurgit.github.io/md-page/md-page.js"></script><noscript>
-  # Hippocamp.net
+# Hippocamp.net
 
 Hippocamp was one of the early netlabels, it started in 2001 and was still releasing up to around 2015. I finally stopped paying for the site hosting in 2019.
 
