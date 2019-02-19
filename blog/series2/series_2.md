@@ -1,4 +1,4 @@
-# Series 1
+# Series 2
 
 ![Abstract sample 1](sample1.png)
 ![Abstract sample 2](sample2.png)
