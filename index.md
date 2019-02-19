@@ -1,3 +1,7 @@
+## Blog
+
+* [Abstract Series 1](./blog/abstract_series_1/abstract_series_1.md)
+
 ## Projects
 
 * [DitherKt](https://github.com/fiskurgit/DitherKt) - Command-line monochrome dithering tool written in Kotlin
