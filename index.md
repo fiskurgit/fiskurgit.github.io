@@ -1,6 +1,6 @@
 ## Blog
 
-* [Series 2](./blog/series_2/series_2.md)
+* [Series 2](./blog/series2/series_2.md)
 * [Series 1](./blog/series_1/series_1.md)
 
 ## Projects
