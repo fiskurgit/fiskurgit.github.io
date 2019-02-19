@@ -1,6 +1,6 @@
 ## Blog
 
-* [Abstract Series 1](./blog/abstract_series_1/abstract_series_1.md)
+* [Abstract Series 1](./blog/series_1/series_1.md)
 
 ## Projects
 
