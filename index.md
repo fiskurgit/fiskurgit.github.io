@@ -1,5 +1,6 @@
 ## Blog
 
+* [Series 4](./blog/series3/series4.md)
 * [Series 3](./blog/series3/series3.md)
 * [Series 2](./blog/series2/series2.md)
 * [Series 1](./blog/series1/series1.md)
