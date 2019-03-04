@@ -2,9 +2,15 @@
 ---
 
 @import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css?family=Trocchi');
 body{
   color: #555b60;
   background-color: #d7d7d7;
+}
+.fiskheader{
+  font-family: 'Trocchi', serif;
+  font-size: 5em;
+  color: #c61700;
 }
 .markdown-body img {
     max-width: 50%;
