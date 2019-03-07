@@ -2,13 +2,16 @@
 ---
 
 @import "{{ site.theme }}";
-@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+@font-face {
+  font-family: 'Prefab';
+  src: url('TSPrefab_Reg.ttf')  format('truetype');
+}
 body{
   color: #555b60;
   background-color: #d7d7d7;
 }
 .fiskheader{
-  font-family: 'Major Mono Display', monospace;
+  font-family: 'Prefab', monospace;
   font-size: 8em;
   color: #c61700;
   padding-left: 0.2em;
