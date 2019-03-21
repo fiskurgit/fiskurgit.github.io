@@ -7,7 +7,8 @@
 
 ## Projects
 
-* [DitherKt](https://github.com/fiskurgit/DitherKt) - Command-line monochrome dithering tool written in Kotlin
+* [DitherKt](https://github.com/fiskurgit/DitherKt) - CLI monochrome dithering tool
+* [RasterPlotter](https://github.com/fiskurgit/RasterPlotter) - CLI image to SVG tool
 
 ## Other
 
