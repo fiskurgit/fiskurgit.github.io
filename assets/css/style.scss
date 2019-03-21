@@ -50,11 +50,13 @@ a {
   font-family: 'gfont', sans-serif;
   padding-bottom: 0.3em;
   font-size: 1.5em;
-  border-top: 1px solid #c3c3c3;
+  border-top: 1px solid #555b60;
 }
 .markdown-body h3 {
   font-family: 'gfont', sans-serif;
-  border-top: 1px solid #ededed;
+  padding-bottom: 0.3em;
+  font-size: 1.0em;
+  border-top: 1px solid #555b60;
 }
 .border-gray-light {
   border-color: #c3c3c3 !important;
