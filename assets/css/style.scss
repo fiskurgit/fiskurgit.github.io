@@ -11,15 +11,8 @@ body{
   font-family: 'Didact Gothic', sans-serif;
   font-size: 4em;
   color: #16161d;
+  background-color: #eeeeee;
   padding-left: 0.2em;
-}
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
-}
-.sticky + .container-lg {
-  padding-top: 102px;
 }
 .markdown-body img {
     max-width: 50%;
