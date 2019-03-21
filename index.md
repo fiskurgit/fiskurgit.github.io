@@ -1,9 +1,9 @@
 ## Blog
 
-* [Series 4](./blog/series4/series4.md)
-* [Series 3](./blog/series3/series3.md)
-* [Series 2](./blog/series2/series2.md)
-* [Series 1](./blog/series1/series1.md)
+* 04/2019 [Series 4](./blog/series4/series4.md)
+* 03/2019 [Series 3](./blog/series3/series3.md)
+* 02/2019 [Series 2](./blog/series2/series2.md)
+* 01/2019 [Series 1](./blog/series1/series1.md)
 
 ## Projects
 
