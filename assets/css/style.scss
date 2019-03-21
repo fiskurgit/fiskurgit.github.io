@@ -13,6 +13,11 @@ body{
   color: #16161d;
   padding-left: 0.2em;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
 .markdown-body img {
     max-width: 50%;
     box-sizing: content-box;
