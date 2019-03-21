@@ -32,12 +32,12 @@ fisk
     {% endif %}
 
     <script>
-      window.onscroll = function() {myFunction()};
+      window.onscroll = function() {stickyFunc()};
 
       var header = document.getElementById("fiskheader");
       var sticky = header.offsetTop;
 
-      function myFunction() {
+      function stickyFunc() {
         if (window.pageYOffset > sticky) {
           header.classList.add("sticky");
         } else {
