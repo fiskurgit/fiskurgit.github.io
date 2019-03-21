@@ -38,14 +38,19 @@ a {
 }
 
 .markdown-body h1 {
+    font-family: 'gfont', sans-serif;
     padding-bottom: 0.3em;
     font-size: 2em;
     border-bottom: 1px solid #555b60;
 }
 .markdown-body h2 {
+    font-family: 'gfont', sans-serif;
     padding-bottom: 0.3em;
     font-size: 1.5em;
     border-bottom: 1px solid #c3c3c3;
+}
+.markdown-body h2 {
+    font-family: 'gfont', sans-serif;
 }
 
 .border-gray-light {
