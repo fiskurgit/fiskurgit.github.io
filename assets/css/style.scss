@@ -2,13 +2,16 @@
 ---
 
 @import "{{ site.theme }}";
-@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+@font-face {
+  font-family: 'gfont';
+  src: url('g_font.ttf'); /* IE9 Compat Modes */
+}
 body{
   color: #555b60;
   background-color: #ffffff;
 }
 .fiskheader{
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'gfont', sans-serif;
   font-size: 4em;
   color: #16161d;
   background-color: #eeeeee;
