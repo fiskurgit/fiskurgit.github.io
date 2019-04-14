@@ -1,5 +1,6 @@
 ## Blog
 
+* [2019/04/14](./blog/14042019/index.md) Standing stone at stones lane, Todmorden
 * [2019/04 Series 5](./blog/series5/series5.md)
 * [2019/04 Series 4](./blog/series4/series4.md)
 * [2019/03 Series 3](./blog/series3/series3.md)
