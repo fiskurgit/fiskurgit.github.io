@@ -5,5 +5,5 @@ Latitude: 53° 42' 28" N
 Longitude: 2° 6' 41" W
 
 
-![Radio mast at Stones](stones_radio2.jpeg)  
+![Radio mast at Stones](sstones_radio2.jpg)  
 ![Radio mast at Stones](stones_radio.jpeg)   
