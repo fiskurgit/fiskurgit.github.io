@@ -1,6 +1,7 @@
 # Gaddings Dam, Todmorden. First Swim 1987
 #### 28th April 2019  
 OS Grid Ref: [SD 94827 22566](https://www.ordnancesurvey.co.uk/osmaps/54.59153647477209,-2.760190210819311,17.723546981811523/pin/)  
+Geo URI: `geo:53.6980,-2.0792`  
 Latitude: 53° 41' 58" N  
 Longitude: 2° 4' 47" W
 
