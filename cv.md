@@ -1,6 +1,6 @@
 # Jonathan Fisher CV
 
-## Contact fiskdebug@gmail.com
+## Contact fiskdebug@gmail.com  
 
 Creative app developer and native team lead, below covers both contract and permanent roles over the last 10+ years. Currently prefer to work in Kotlin and Dart/Flutter but experienced enough to develop across most platforms.
 
