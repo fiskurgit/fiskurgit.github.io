@@ -17,6 +17,8 @@ Codex is a text editor designed to work alongside Termux so you don't have to st
 * Install Codex _(not released yet)_ 
 * Select the file menu and choose open, in the native Android file chooser tap the burger menu and select Termux, the chooser opens at the home directory where you can select and edit your blog files.
 
+[Note - Codex can't create files in Termux, for that just use `touch somefile.md` instead]
+
 ## Termux Widget
 
 You can of course return to Termux to commit and push your updated blog, or you can do a little more setup and have convenient one-click publishing of your blog using [Termux Widget](https://wiki.termux.com/wiki/Termux:Widget)
