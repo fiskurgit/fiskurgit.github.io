@@ -10,11 +10,11 @@ Setup [Github Pages](https://guides.github.com/features/pages/) to host your blo
 * Install Git in Termux with `apt install git`
 * Clone your Github Pages project (in the default $HOME directory is fine, Termux now seems to have moved fully to [SAF](https://developer.android.com/guide/topics/providers/document-provider) and no extra steps are needed)
 
-## Kodex
+## Codex
 
-Kodex is a text editor designed to work alongside Termux so you don't have to struggle with Vi or Nano using a mobile keyboard. 
+Codex is a text editor designed to work alongside Termux so you don't have to struggle with Vi or Nano using a mobile keyboard. 
 
-* Install Kodex _(not released yet)_ 
+* Install Codex _(not released yet)_ 
 * Select the file menu and choose open, in the native Android file chooser tap the burger menu and select Termux, the chooser opens at the home directory where you can select and edit your blog files.
 
 ## Termux Widget
