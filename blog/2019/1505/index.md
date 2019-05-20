@@ -7,7 +7,7 @@ Setup [Github Pages](https://guides.github.com/features/pages/) to host your blo
 ## Termux
 
 * Install [Termux](https://termux.com/) on your Android device
-* Install Git in Termux with `apt install git`
+* Install Git in Termux with `pkg install git`
 * Clone your Github Pages project (in the default $HOME directory is fine, Termux now seems to have moved fully to [SAF](https://developer.android.com/guide/topics/providers/document-provider) and no extra steps are needed)
 
 ## Codex
