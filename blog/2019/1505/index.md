@@ -1,5 +1,7 @@
 # Mobile Blogging
 
+An overview of how this site is managed. 90% of the posts are done from an Android device running Termux and my own Codex editor. Recently I purchased a Vortex Core 40% keyboard which has made life easier too.
+
 ## Github Pages
 
 Setup [Github Pages](https://guides.github.com/features/pages/) to host your blog.
@@ -12,9 +14,9 @@ Setup [Github Pages](https://guides.github.com/features/pages/) to host your blo
 
 ## Codex
 
-Codex is a text editor designed to work alongside Termux so you don't have to struggle with Vi or Nano using a mobile keyboard. 
+Codex is a text editor designed to work alongside Termux so you don't have to struggle with Vi or Nano using a mobile keyboard. It has features to help with Markdown editing: markdown syntax highlighting and markdown preview. 
 
-* Install Codex _(not released yet)_ 
+* [Install Codex](http://todo)
 * Select the file menu and choose open, in the native Android file chooser tap the burger menu and select Termux, the chooser opens at the home directory where you can select and edit your blog files.
 
 [Note - Codex can't create files in Termux, for that just use `touch somefile.md` instead]
