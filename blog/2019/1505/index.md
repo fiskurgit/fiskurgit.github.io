@@ -14,7 +14,7 @@ Setup [Github Pages](https://guides.github.com/features/pages/) to host your blo
 
 ## Codex
 
-Codex is a text editor designed to work alongside Termux so you don't have to struggle with Vi or Nano using a mobile keyboard. It has features to help with Markdown editing: markdown syntax highlighting and markdown preview. 
+Codex is a text editor designed to work alongside Termux so you don't have to struggle with Vi or Nano using a mobile keyboard. It has features to help with Markdown editing: markdown syntax highlighting and markdown preview.
 
 * [Install Codex](http://todo)
 * Select the file menu and choose open, in the native Android file chooser tap the burger menu and select Termux, the chooser opens at the home directory where you can select and edit your blog files.
@@ -26,23 +26,25 @@ Codex is a text editor designed to work alongside Termux so you don't have to st
 You can of course return to Termux to commit and push your updated blog, or you can do a little more setup and have convenient one-click publishing of your blog using [Termux Widget](https://wiki.termux.com/wiki/Termux:Widget)
 
 * Create a shell script to pull the latest changes:
-```
-#!/bin/sh
 
-cd $HOME/fiskurgit.github.io
-git pull origin master
-```
+  ```
+  #!/bin/sh
+
+  cd $HOME/fiskurgit.github.io
+  git pull origin master
+  ```  
 
 * and another to push:
-```
-#!/bin/sh
 
-timestamp() {
-  date +"%T"
-}
+  ```
+  #!/bin/sh
 
-cd $HOME/fiskurgit.github.io
-git add --all
-git commit -m "update at $(timestamp)"
-git push origin master
-```
+  timestamp() {
+    date +"%T"
+  }
+
+  cd $HOME/fiskurgit.github.io
+  git add --all
+  git commit -m "update at $(timestamp)"
+  git push origin master
+  ```
