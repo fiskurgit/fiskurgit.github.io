@@ -2,7 +2,7 @@
 
 ![Pico-8 Unknown Pleasures Image](screenshot1.png)
 
-A quick first attempt at coding on the Pico-8
+A quick first attempt at coding on the [Pico-8](https://www.lexaloffle.com/pico-8.php)
 
 ```
 WHITE = 7
