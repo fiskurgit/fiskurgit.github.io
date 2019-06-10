@@ -1,5 +1,6 @@
 ## Blog
 
+* [10th Jun](./blog/2019/1006/index.md) Pico-8 Unknown Pleasures
 * [29th May](./blog/2019/2905/index.md) Hexagrams
 * [15th May](./blog/2019/1505/index.md) Termux + Codex  
 * [05th May](./blog/2019/0505/index.md) Summit Tunnel Fire  
