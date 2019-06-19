@@ -1,4 +1,4 @@
-let w = 100;
+let w = 200;
 let eg;
 
 function setup() {
