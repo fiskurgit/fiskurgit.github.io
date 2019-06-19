@@ -33,7 +33,7 @@ function mousePressed() {
 }
 
 function a() {
-  f = Math.floor(random(-2, 3));
+  f = Math.floor(random(-2, 4));
   lw = w;
   if (f < 0) {
     lw = w / f;
@@ -47,7 +47,7 @@ function a() {
 }
 
 function b() {
-  let ww = Math.floor(random(-2, 3)) * w;
+  let ww = Math.floor(random(-2, 6)) * w;
   s = Math.floor(random(0, width / w));
   sx = s * ww;
   ex = sx + s * ww;
