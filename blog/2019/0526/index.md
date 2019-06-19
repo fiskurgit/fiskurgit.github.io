@@ -5,6 +5,6 @@ Geo URI: `geo:54.5910,2.78437`
 Latitude: 53° 41' 58" N  
 Longitude: 2° 4' 47" W
 
-Up on Moor Divock/Askham Fell along with the Cop Stone, the Cockpit Circle and others. Deserves to have a name, but apparently doesn't.
+Up on Moor Divock/Askham Fell along with the [Cop Stone](https://fiskurgit.github.io/blog/20042019/), the Cockpit Circle and others. Deserves to have a name, but apparently doesn't.
 
 ![Ring Cairn, Askham Fell](askham_fell_mini_circle.png)   
