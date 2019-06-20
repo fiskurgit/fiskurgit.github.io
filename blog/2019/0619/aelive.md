@@ -4,6 +4,8 @@ P5.js sketch to replicate the artwork for [Autechre's AE LIVE](https://autechre.
 
 [View in browser](index.html)
 
+You can use the above url with [WebViewScreensaver](https://github.com/liquidx/webviewscreensaver) on OSX.
+
 ![Screenshot](screenshot.png)
 
 ```
