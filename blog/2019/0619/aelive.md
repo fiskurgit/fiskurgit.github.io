@@ -24,7 +24,7 @@ function draw() {
   background(255);
 
   iv = displayWidth/500
-  as = Math.floor(random(1, 25 * iv));
+  as = int(random(1, 25 * iv));
   for (i = 0; i < as; i++) {
     a();
   }
@@ -35,17 +35,14 @@ function draw() {
   }
 
   bgl()
-
-  //noLoop();
 }
 
 function mousePressed() {
-  loop()
   draw()
 }
 
 function a() {
-  f = Math.floor(random(-2, 3));
+  f = int(random(-2, 3));
   lw = w;
   if (f < 0) {
     lw = w / f;
@@ -53,21 +50,21 @@ function a() {
   if (f > 0) {
     lw = f * w;
   }
-  x = Math.floor(random(0, width / w)) * w;
-  y = Math.floor(random(0, height / w)) * w;
+  x = int(random(0, width / w)) * w;
+  y = int(random(0, height / w)) * w;
   triangle(x, y, x + lw, y, x + lw, y + lw);
 }
 
 function b() {
-  ww = Math.floor(random(-2, 3)) * w;
-  s = Math.floor(random(0, width / w));
+  ww = int(random(-2, 3)) * w;
+  s = int(random(0, width / w));
   sx = s * ww;
   ex = sx + s * ww;
 
   sy = s * ww;
   ey = sy + s * ww;
 
-  xo = Math.floor(random(-width / w, width / w)) * w;
+  xo = int(random(-width / w, width / w)) * w;
 
   beginShape();
   vertex(sx + xo, sy);
