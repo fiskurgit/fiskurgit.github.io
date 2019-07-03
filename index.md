@@ -1,6 +1,7 @@
 ## Blog
 
-* [26th Jun](./blog/2019/0626/index.md) Meallach's Grave, Arran 
+* [03rd Jul](./blog/2019/07/03/) Sleeping Babies
+* [26th Jun](./blog/2019/0626/index.md) Meallach's Grave, Arran
 * [25th Jun](./blog/2019/0625b/index.md) Druid Auchencar, Arran  
 * [25th Jun](./blog/2019/0625/index.md) Machrie Moor, Arran  
 * [24th Jun](./blog/2019/0624/index.md) Brodick 'Deer Park' Standing stones, Cladach, Arran
@@ -8,7 +9,7 @@
 * [10th Jun](./blog/2019/1006/index.md) Pico-8 Unknown Pleasures
 * [29th May](./blog/2019/2905/index.md) Hexagrams
 * [26th May](./blog/2019/0526/index.md) Cairn Circle, Askham Fell, Cumbria
-* [15th May](./blog/2019/1505/index.md) Termux + Codex  
+* [15th May](./blog/2019/1505/index.md) Termux + Codex
 * [05th May](./blog/2019/0505/index.md) Summit Tunnel Fire  
 * [28th Apr](./blog/2019/0428/index.md) Gaddings Dam, Todmorden. First Swim 1987
 * [27th Apr](./blog/27042019/index.md) Walsden TV Relay Tower  
