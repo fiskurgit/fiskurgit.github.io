@@ -1,6 +1,6 @@
 # Sleeping babies
 
-[View animated version (requires Javascript)](https://fiskurgit.github.io/blog/2019/07/03/)
+[View animated version (requires Javascript)](./js/)
 
 A4 Axidraw pen plot:
 
